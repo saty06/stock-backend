@@ -1,0 +1,794 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-16T05:14:09.686Z"}
+error: Could not connect to the database. Access denied for user 'admin'@'localhost' (using password: YES) {"name":"SequelizeAccessDeniedError","original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'admin'@'localhost' (using password: YES)","sqlState":"28000"},"parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'admin'@'localhost' (using password: YES)","sqlState":"28000"},"stack":"SequelizeAccessDeniedError: Access denied for user 'admin'@'localhost' (using password: YES)\n    at ConnectionManager.connect (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\mysql\\connection-manager.js:94:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ConnectionManager._connect (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:222:24)\n    at async C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:174:32","timestamp":"2024-12-16T05:14:10.141Z"}
+error: uncaughtException: Access denied for user 'admin'@'localhost' (using password: YES)
+SequelizeAccessDeniedError: Access denied for user 'admin'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 {"date":"Mon Dec 16 2024 10:44:10 GMT+0530 (India Standard Time)","error":{"name":"SequelizeAccessDeniedError","original":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'admin'@'localhost' (using password: YES)","sqlState":"28000"},"parent":{"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlMessage":"Access denied for user 'admin'@'localhost' (using password: YES)","sqlState":"28000"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":174921.875},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":17953,"external":2245448,"heapTotal":54685696,"heapUsed":21061016,"rss":67878912},"pid":15900,"uid":null,"version":"v20.14.0"},"stack":"SequelizeAccessDeniedError: Access denied for user 'admin'@'localhost' (using password: YES)\n    at ConnectionManager.connect (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\mysql\\connection-manager.js:94:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ConnectionManager._connect (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:222:24)\n    at async C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:174:32","timestamp":"2024-12-16T05:14:10.151Z","trace":[{"column":17,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\mysql\\connection-manager.js","function":"ConnectionManager.connect","line":94,"method":"connect","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false},{"column":24,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js","function":"async ConnectionManager._connect","line":222,"method":"_connect","native":false},{"column":32,"file":"async C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js","function":null,"line":174,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-16T05:18:20.049Z"}
+error: Could not connect to the database. password authentication failed for user "admin" {"name":"SequelizeConnectionError","original":{"code":"28P01","file":"auth.c","length":101,"line":"326","name":"error","routine":"auth_failed","severity":"FATAL"},"parent":{"code":"28P01","file":"auth.c","length":101,"line":"326","name":"error","routine":"auth_failed","severity":"FATAL"},"stack":"SequelizeConnectionError: password authentication failed for user \"admin\"\n    at Client._connectionCallback (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\postgres\\connection-manager.js:145:24)\n    at Client._handleErrorWhileConnecting (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg\\lib\\client.js:326:19)\n    at Client._handleErrorMessage (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg\\lib\\client.js:346:19)\n    at Connection.emit (node:events:519:28)\n    at C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg\\lib\\connection.js:116:12\n    at Parser.parse (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg-protocol\\dist\\parser.js:36:17)\n    at Socket.<anonymous> (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg-protocol\\dist\\index.js:11:42)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:559:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)","timestamp":"2024-12-16T05:18:20.210Z"}
+error: uncaughtException: password authentication failed for user "admin"
+SequelizeConnectionError: password authentication failed for user "admin"
+    at Client._connectionCallback (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:145:24)
+    at Client._handleErrorWhileConnecting (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\pg\lib\client.js:326:19)
+    at Client._handleErrorMessage (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\pg\lib\client.js:346:19)
+    at Connection.emit (node:events:519:28)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\pg\lib\connection.js:116:12
+    at Parser.parse (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\pg-protocol\dist\parser.js:36:17)
+    at Socket.<anonymous> (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3) {"date":"Mon Dec 16 2024 10:48:20 GMT+0530 (India Standard Time)","error":{"name":"SequelizeConnectionError","original":{"code":"28P01","file":"auth.c","length":101,"line":"326","name":"error","routine":"auth_failed","severity":"FATAL"},"parent":{"code":"28P01","file":"auth.c","length":101,"line":"326","name":"error","routine":"auth_failed","severity":"FATAL"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":175171.937},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":73360,"external":3478157,"heapTotal":37015552,"heapUsed":23927048,"rss":69767168},"pid":12564,"uid":null,"version":"v20.14.0"},"stack":"SequelizeConnectionError: password authentication failed for user \"admin\"\n    at Client._connectionCallback (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\postgres\\connection-manager.js:145:24)\n    at Client._handleErrorWhileConnecting (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg\\lib\\client.js:326:19)\n    at Client._handleErrorMessage (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg\\lib\\client.js:346:19)\n    at Connection.emit (node:events:519:28)\n    at C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg\\lib\\connection.js:116:12\n    at Parser.parse (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg-protocol\\dist\\parser.js:36:17)\n    at Socket.<anonymous> (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg-protocol\\dist\\index.js:11:42)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:559:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)","timestamp":"2024-12-16T05:18:20.215Z","trace":[{"column":24,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\postgres\\connection-manager.js","function":"Client._connectionCallback","line":145,"method":"_connectionCallback","native":false},{"column":19,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg\\lib\\client.js","function":"Client._handleErrorWhileConnecting","line":326,"method":"_handleErrorWhileConnecting","native":false},{"column":19,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg\\lib\\client.js","function":"Client._handleErrorMessage","line":346,"method":"_handleErrorMessage","native":false},{"column":28,"file":"node:events","function":"Connection.emit","line":519,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg\\lib\\connection.js","function":null,"line":116,"method":null,"native":false},{"column":17,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg-protocol\\dist\\parser.js","function":"Parser.parse","line":36,"method":"parse","native":false},{"column":42,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg-protocol\\dist\\index.js","function":null,"line":11,"method":null,"native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":559,"method":null,"native":false},{"column":3,"file":"node:internal/streams/readable","function":"readableAddChunkPushByteMode","line":510,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-16T05:20:51.815Z"}
+error: Could not connect to the database. password authentication failed for user "admin" {"name":"SequelizeConnectionError","original":{"code":"28P01","file":"auth.c","length":101,"line":"326","name":"error","routine":"auth_failed","severity":"FATAL"},"parent":{"code":"28P01","file":"auth.c","length":101,"line":"326","name":"error","routine":"auth_failed","severity":"FATAL"},"stack":"SequelizeConnectionError: password authentication failed for user \"admin\"\n    at Client._connectionCallback (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\postgres\\connection-manager.js:145:24)\n    at Client._handleErrorWhileConnecting (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg\\lib\\client.js:326:19)\n    at Client._handleErrorMessage (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg\\lib\\client.js:346:19)\n    at Connection.emit (node:events:519:28)\n    at C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg\\lib\\connection.js:116:12\n    at Parser.parse (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg-protocol\\dist\\parser.js:36:17)\n    at Socket.<anonymous> (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg-protocol\\dist\\index.js:11:42)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:559:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)","timestamp":"2024-12-16T05:20:51.936Z"}
+error: uncaughtException: password authentication failed for user "admin"
+SequelizeConnectionError: password authentication failed for user "admin"
+    at Client._connectionCallback (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:145:24)
+    at Client._handleErrorWhileConnecting (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\pg\lib\client.js:326:19)
+    at Client._handleErrorMessage (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\pg\lib\client.js:346:19)
+    at Connection.emit (node:events:519:28)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\pg\lib\connection.js:116:12
+    at Parser.parse (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\pg-protocol\dist\parser.js:36:17)
+    at Socket.<anonymous> (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3) {"date":"Mon Dec 16 2024 10:50:51 GMT+0530 (India Standard Time)","error":{"name":"SequelizeConnectionError","original":{"code":"28P01","file":"auth.c","length":101,"line":"326","name":"error","routine":"auth_failed","severity":"FATAL"},"parent":{"code":"28P01","file":"auth.c","length":101,"line":"326","name":"error","routine":"auth_failed","severity":"FATAL"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":175323.671},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":73360,"external":3478157,"heapTotal":37015552,"heapUsed":23914904,"rss":71983104},"pid":14740,"uid":null,"version":"v20.14.0"},"stack":"SequelizeConnectionError: password authentication failed for user \"admin\"\n    at Client._connectionCallback (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\postgres\\connection-manager.js:145:24)\n    at Client._handleErrorWhileConnecting (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg\\lib\\client.js:326:19)\n    at Client._handleErrorMessage (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg\\lib\\client.js:346:19)\n    at Connection.emit (node:events:519:28)\n    at C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg\\lib\\connection.js:116:12\n    at Parser.parse (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg-protocol\\dist\\parser.js:36:17)\n    at Socket.<anonymous> (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg-protocol\\dist\\index.js:11:42)\n    at Socket.emit (node:events:519:28)\n    at addChunk (node:internal/streams/readable:559:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)","timestamp":"2024-12-16T05:20:51.942Z","trace":[{"column":24,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\postgres\\connection-manager.js","function":"Client._connectionCallback","line":145,"method":"_connectionCallback","native":false},{"column":19,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg\\lib\\client.js","function":"Client._handleErrorWhileConnecting","line":326,"method":"_handleErrorWhileConnecting","native":false},{"column":19,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg\\lib\\client.js","function":"Client._handleErrorMessage","line":346,"method":"_handleErrorMessage","native":false},{"column":28,"file":"node:events","function":"Connection.emit","line":519,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg\\lib\\connection.js","function":null,"line":116,"method":null,"native":false},{"column":17,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg-protocol\\dist\\parser.js","function":"Parser.parse","line":36,"method":"parse","native":false},{"column":42,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\pg-protocol\\dist\\index.js","function":null,"line":11,"method":null,"native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":559,"method":null,"native":false},{"column":3,"file":"node:internal/streams/readable","function":"readableAddChunkPushByteMode","line":510,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-16T05:22:19.696Z"}
+info: Connected to the database. {"timestamp":"2024-12-16T05:22:20.015Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-16T05:24:57.373Z"}
+error: uncaughtException: A column called 'id' was added to the attributes of 'users' but not marked with 'primaryKey: true'
+Error: A column called 'id' was added to the attributes of 'users' but not marked with 'primaryKey: true'
+    at user._addDefaultAttributes (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:193:15)
+    at user.init (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:768:10)
+    at exports.default (C:\Users\admin\Desktop\yahoo google\backend\socket\build\models\user.js:17:10)
+    at new UserService (C:\Users\admin\Desktop\yahoo google\backend\socket\build\services\user.service.js:42:40)
+    at new UserController (C:\Users\admin\Desktop\yahoo google\backend\socket\build\controllers\user.controller.js:20:28)
+    at new UserRoutes (C:\Users\admin\Desktop\yahoo google\backend\socket\build\routes\user.route.js:12:31)
+    at routes (C:\Users\admin\Desktop\yahoo google\backend\socket\build\routes\index.js:18:26)
+    at App.initializeRoutes (C:\Users\admin\Desktop\yahoo google\backend\socket\build\index.js:37:71)
+    at new App (C:\Users\admin\Desktop\yahoo google\backend\socket\build\index.js:25:14)
+    at Object.<anonymous> (C:\Users\admin\Desktop\yahoo google\backend\socket\build\index.js:53:13) {"date":"Mon Dec 16 2024 11:20:07 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":177080.203},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":72729,"external":3208772,"heapTotal":36597760,"heapUsed":22927776,"rss":69828608},"pid":21056,"uid":null,"version":"v20.14.0"},"stack":"Error: A column called 'id' was added to the attributes of 'users' but not marked with 'primaryKey: true'\n    at user._addDefaultAttributes (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:193:15)\n    at user.init (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:768:10)\n    at exports.default (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\models\\user.js:17:10)\n    at new UserService (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\services\\user.service.js:42:40)\n    at new UserController (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\controllers\\user.controller.js:20:28)\n    at new UserRoutes (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\routes\\user.route.js:12:31)\n    at routes (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\routes\\index.js:18:26)\n    at App.initializeRoutes (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js:37:71)\n    at new App (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js:25:14)\n    at Object.<anonymous> (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js:53:13)","timestamp":"2024-12-16T05:50:07.459Z","trace":[{"column":15,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"user._addDefaultAttributes","line":193,"method":"_addDefaultAttributes","native":false},{"column":10,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"user.init","line":768,"method":"init","native":false},{"column":10,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\models\\user.js","function":"exports.default","line":17,"method":"default","native":false},{"column":40,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\services\\user.service.js","function":"new UserService","line":42,"method":null,"native":false},{"column":28,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\controllers\\user.controller.js","function":"new UserController","line":20,"method":null,"native":false},{"column":31,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\routes\\user.route.js","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":26,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\routes\\index.js","function":"routes","line":18,"method":null,"native":false},{"column":71,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js","function":"App.initializeRoutes","line":37,"method":"initializeRoutes","native":false},{"column":14,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js","function":"new App","line":25,"method":null,"native":false},{"column":13,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js","function":null,"line":53,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-16T05:52:17.340Z"}
+info: Connected to the database. {"timestamp":"2024-12-16T05:52:17.588Z"}
+error: uncaughtException: syntax error at or near "SERIAL"
+Error
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async user.sync (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\sequelize.js:377:9) {"date":"Mon Dec 16 2024 11:22:17 GMT+0530 (India Standard Time)","error":{"name":"SequelizeDatabaseError","original":{"code":"42601","file":"scan.l","length":96,"line":"1245","name":"error","position":"163","routine":"scanner_yyerror","severity":"ERROR","sql":"CREATE TABLE IF NOT EXISTS \"financeData\".\"users\" (\"name\" VARCHAR(255), \"google_id\" VARCHAR(255), \"email\" VARCHAR(255), \"google_picture\" VARCHAR(255), \"id\" NUMBER SERIAL , \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"parameters":{},"parent":{"code":"42601","file":"scan.l","length":96,"line":"1245","name":"error","position":"163","routine":"scanner_yyerror","severity":"ERROR","sql":"CREATE TABLE IF NOT EXISTS \"financeData\".\"users\" (\"name\" VARCHAR(255), \"google_id\" VARCHAR(255), \"email\" VARCHAR(255), \"google_picture\" VARCHAR(255), \"id\" NUMBER SERIAL , \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"sql":"CREATE TABLE IF NOT EXISTS \"financeData\".\"users\" (\"name\" VARCHAR(255), \"google_id\" VARCHAR(255), \"email\" VARCHAR(255), \"google_picture\" VARCHAR(255), \"id\" NUMBER SERIAL , \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":177210.359},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":120955,"external":3526136,"heapTotal":55365632,"heapUsed":23421632,"rss":73654272},"pid":4880,"uid":null,"version":"v20.14.0"},"stack":"Error\n    at Query.run (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\postgres\\query.js:50:25)\n    at C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async PostgresQueryInterface.createTable (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:98:12)\n    at async user.sync (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:942:7)\n    at async Sequelize.sync (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\sequelize.js:377:9)","timestamp":"2024-12-16T05:52:17.627Z","trace":[{"column":25,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\postgres\\query.js","function":"Query.run","line":50,"method":"run","native":false},{"column":28,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\sequelize.js","function":null,"line":315,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js","function":"async PostgresQueryInterface.createTable","line":98,"method":"createTable","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async user.sync","line":942,"method":"sync","native":false},{"column":9,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\sequelize.js","function":"async Sequelize.sync","line":377,"method":"sync","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-16T05:54:59.540Z"}
+info: Connected to the database. {"timestamp":"2024-12-16T05:54:59.762Z"}
+error: uncaughtException: syntax error at or near "SERIAL"
+Error
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.createTable (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async user.sync (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\sequelize.js:377:9) {"date":"Mon Dec 16 2024 11:24:59 GMT+0530 (India Standard Time)","error":{"name":"SequelizeDatabaseError","original":{"code":"42601","file":"scan.l","length":96,"line":"1245","name":"error","position":"163","routine":"scanner_yyerror","severity":"ERROR","sql":"CREATE TABLE IF NOT EXISTS \"financeData\".\"users\" (\"name\" VARCHAR(255), \"google_id\" VARCHAR(255), \"email\" VARCHAR(255), \"google_picture\" VARCHAR(255), \"id\" NUMBER SERIAL , \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"parameters":{},"parent":{"code":"42601","file":"scan.l","length":96,"line":"1245","name":"error","position":"163","routine":"scanner_yyerror","severity":"ERROR","sql":"CREATE TABLE IF NOT EXISTS \"financeData\".\"users\" (\"name\" VARCHAR(255), \"google_id\" VARCHAR(255), \"email\" VARCHAR(255), \"google_picture\" VARCHAR(255), \"id\" NUMBER SERIAL , \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"sql":"CREATE TABLE IF NOT EXISTS \"financeData\".\"users\" (\"name\" VARCHAR(255), \"google_id\" VARCHAR(255), \"email\" VARCHAR(255), \"google_picture\" VARCHAR(255), \"id\" NUMBER SERIAL , \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":177372.515},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":120955,"external":3526136,"heapTotal":55365632,"heapUsed":23274680,"rss":72318976},"pid":12320,"uid":null,"version":"v20.14.0"},"stack":"Error\n    at Query.run (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\postgres\\query.js:50:25)\n    at C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async PostgresQueryInterface.createTable (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:98:12)\n    at async user.sync (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:942:7)\n    at async Sequelize.sync (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\sequelize.js:377:9)","timestamp":"2024-12-16T05:54:59.786Z","trace":[{"column":25,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\postgres\\query.js","function":"Query.run","line":50,"method":"run","native":false},{"column":28,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\sequelize.js","function":null,"line":315,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js","function":"async PostgresQueryInterface.createTable","line":98,"method":"createTable","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async user.sync","line":942,"method":"sync","native":false},{"column":9,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\sequelize.js","function":"async Sequelize.sync","line":377,"method":"sync","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-16T05:57:35.703Z"}
+info: Connected to the database. {"timestamp":"2024-12-16T05:57:35.939Z"}
+error: 
+    status - 500 
+    message - ValidationError: "google_id" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-16T06:14:28.666Z"}
+error: 
+    status - 500 
+    message - ValidationError: "google_id" is not allowed 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-16T06:15:15.529Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-16T06:16:53.997Z"}
+info: Connected to the database. {"timestamp":"2024-12-16T06:16:54.261Z"}
+error: 
+    status - 500 
+    message - ValidationError: "google_id" is not allowed 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-16T06:17:27.270Z"}
+error: 
+    status - 500 
+    message - ValidationError: "id" is not allowed 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-16T06:19:46.189Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-16T06:20:22.864Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-16T06:20:32.099Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-16T06:20:40.023Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-16T06:20:49.451Z"}
+error: 
+    status - 500 
+    message - ValidationError: "id" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-16T06:20:56.737Z"}
+error: 
+    status - 500 
+    message - ValidationError: "id" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-16T06:22:10.140Z"}
+error: 
+    status - 500 
+    message - ValidationError: "id" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-16T06:23:06.786Z"}
+error: 
+    status - 500 
+    message - ValidationError: "id" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-16T06:23:12.733Z"}
+error: 
+    status - 500 
+    message - ValidationError: "id" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-16T06:27:25.730Z"}
+error: 
+    status - 500 
+    message - ValidationError: "id" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-16T06:28:14.269Z"}
+error: 
+    status - 500 
+    message - ValidationError: "id" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-16T06:30:34.616Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-16T06:32:12.319Z"}
+info: Connected to the database. {"timestamp":"2024-12-16T06:32:12.572Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-16T06:36:29.020Z"}
+info: Connected to the database. {"timestamp":"2024-12-16T06:36:29.254Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-16T06:44:52.721Z"}
+info: Connected to the database. {"timestamp":"2024-12-16T06:44:52.976Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-16T07:00:13.080Z"}
+info: Connected to the database. {"timestamp":"2024-12-16T07:00:13.344Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-16T07:09:55.201Z"}
+info: Connected to the database. {"timestamp":"2024-12-16T07:09:55.438Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+    at listenInCluster (node:net:1946:12)
+    at Server.listen (node:net:2044:7)
+    at Function.listen (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\application.js:635:24)
+    at App.startApp (C:\Users\admin\Desktop\yahoo google\backend\socket\build\index.js:45:18)
+    at new App (C:\Users\admin\Desktop\yahoo google\backend\socket\build\index.js:27:14)
+    at Object.<anonymous> (C:\Users\admin\Desktop\yahoo google\backend\socket\build\index.js:53:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32) {"date":"Mon Dec 16 2024 13:34:05 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":185118.531},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":72729,"external":3323319,"heapTotal":36597760,"heapUsed":23037840,"rss":69103616},"pid":15052,"uid":null,"version":"v20.14.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1898:16)\n    at listenInCluster (node:net:1946:12)\n    at Server.listen (node:net:2044:7)\n    at Function.listen (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\express\\lib\\application.js:635:24)\n    at App.startApp (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js:45:18)\n    at new App (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js:27:14)\n    at Object.<anonymous> (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js:53:13)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)","timestamp":"2024-12-16T08:04:05.796Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1898,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1946,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":2044,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":18,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js","function":"App.startApp","line":45,"method":"startApp","native":false},{"column":14,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js","function":"new App","line":27,"method":null,"native":false},{"column":13,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js","function":null,"line":53,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1358,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1416,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1208,"method":"load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-16T08:04:34.058Z"}
+info: Connected to the database. {"timestamp":"2024-12-16T08:04:34.333Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\jsonwebtoken\sign.js:107:20)
+    at UserController.<anonymous> (C:\Users\admin\Desktop\yahoo google\backend\socket\build\controllers\user.controller.js:71:54)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\admin\Desktop\yahoo google\backend\socket\build\controllers\user.controller.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-16T08:05:20.024Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\jsonwebtoken\sign.js:107:20)
+    at UserController.<anonymous> (C:\Users\admin\Desktop\yahoo google\backend\socket\build\controllers\user.controller.js:71:54)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\admin\Desktop\yahoo google\backend\socket\build\controllers\user.controller.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-16T08:05:33.118Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\jsonwebtoken\sign.js:107:20)
+    at UserController.<anonymous> (C:\Users\admin\Desktop\yahoo google\backend\socket\build\controllers\user.controller.js:71:54)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\admin\Desktop\yahoo google\backend\socket\build\controllers\user.controller.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-16T08:08:00.515Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\jsonwebtoken\sign.js:107:20)
+    at UserController.<anonymous> (C:\Users\admin\Desktop\yahoo google\backend\socket\build\controllers\user.controller.js:71:54)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\admin\Desktop\yahoo google\backend\socket\build\controllers\user.controller.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-16T08:10:27.307Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-16T08:12:20.944Z"}
+info: Connected to the database. {"timestamp":"2024-12-16T08:12:21.401Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T07:32:45.259Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T07:32:46.053Z"}
+error: uncaughtException: notNull Violation: Stock.ticker cannot be null
+SequelizeValidationError: notNull Violation: Stock.ticker cannot be null
+    at InstanceValidator._validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:50:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InstanceValidator._validateAndRunHooks (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:60:7)
+    at async InstanceValidator.validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:54:12)
+    at async model.save (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:2426:7)
+    at async Stock.create (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:1362:12) {"date":"Tue Dec 17 2024 13:06:48 GMT+0530 (India Standard Time)","error":{"errors":[{"instance":{"buy_price":null,"company_name":"Unknown","createdAt":"2024-12-17T07:36:48.986Z","created_at":"2024-12-17T07:36:48.984Z","id":null,"quantity":null,"updatedAt":"2024-12-17T07:36:48.986Z","user_id":null},"message":"Stock.ticker cannot be null","origin":"CORE","path":"ticker","type":"notNull Violation","validatorArgs":[],"validatorKey":"is_null","validatorName":null,"value":null}],"name":"SequelizeValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":48406.718},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":219961,"external":3630835,"heapTotal":21811200,"heapUsed":20509072,"rss":58949632},"pid":15384,"uid":null,"version":"v20.14.0"},"stack":"SequelizeValidationError: notNull Violation: Stock.ticker cannot be null\n    at InstanceValidator._validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:50:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async InstanceValidator._validateAndRunHooks (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:60:7)\n    at async InstanceValidator.validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:54:12)\n    at async model.save (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:2426:7)\n    at async Stock.create (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:1362:12)","timestamp":"2024-12-17T07:36:48.994Z","trace":[{"column":13,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"InstanceValidator._validate","line":50,"method":"_validate","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator._validateAndRunHooks","line":60,"method":"_validateAndRunHooks","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator.validate","line":54,"method":"validate","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async model.save","line":2426,"method":"save","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async Stock.create","line":1362,"method":"create","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T07:37:44.848Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T07:37:45.205Z"}
+error: uncaughtException: notNull Violation: Stock.ticker cannot be null
+SequelizeValidationError: notNull Violation: Stock.ticker cannot be null
+    at InstanceValidator._validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:50:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InstanceValidator._validateAndRunHooks (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:60:7)
+    at async InstanceValidator.validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:54:12)
+    at async model.save (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:2426:7)
+    at async Stock.create (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:1362:12) {"date":"Tue Dec 17 2024 13:07:50 GMT+0530 (India Standard Time)","error":{"errors":[{"instance":{"buy_price":null,"company_name":"Unknown","createdAt":"2024-12-17T07:37:50.177Z","created_at":"2024-12-17T07:37:50.174Z","current_price":null,"id":null,"quantity":null,"updatedAt":"2024-12-17T07:37:50.177Z","user_id":null},"message":"Stock.ticker cannot be null","origin":"CORE","path":"ticker","type":"notNull Violation","validatorArgs":[],"validatorKey":"is_null","validatorName":null,"value":null}],"name":"SequelizeValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":48467.906},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":260998,"external":3677523,"heapTotal":56676352,"heapUsed":24301368,"rss":78331904},"pid":14772,"uid":null,"version":"v20.14.0"},"stack":"SequelizeValidationError: notNull Violation: Stock.ticker cannot be null\n    at InstanceValidator._validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:50:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async InstanceValidator._validateAndRunHooks (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:60:7)\n    at async InstanceValidator.validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:54:12)\n    at async model.save (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:2426:7)\n    at async Stock.create (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:1362:12)","timestamp":"2024-12-17T07:37:50.185Z","trace":[{"column":13,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"InstanceValidator._validate","line":50,"method":"_validate","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator._validateAndRunHooks","line":60,"method":"_validateAndRunHooks","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator.validate","line":54,"method":"validate","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async model.save","line":2426,"method":"save","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async Stock.create","line":1362,"method":"create","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T07:42:06.154Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T07:42:06.563Z"}
+error: uncaughtException: notNull Violation: Stock.ticker cannot be null
+SequelizeValidationError: notNull Violation: Stock.ticker cannot be null
+    at InstanceValidator._validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:50:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InstanceValidator._validateAndRunHooks (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:60:7)
+    at async InstanceValidator.validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:54:12)
+    at async model.save (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:2426:7)
+    at async Stock.create (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:1362:12) {"date":"Tue Dec 17 2024 13:12:14 GMT+0530 (India Standard Time)","error":{"errors":[{"instance":{"buy_price":null,"company_name":"Unknown","createdAt":"2024-12-17T07:42:14.469Z","created_at":"2024-12-17T07:42:14.468Z","current_price":null,"id":null,"quantity":null,"updatedAt":"2024-12-17T07:42:14.469Z","user_id":null},"message":"Stock.ticker cannot be null","origin":"CORE","path":"ticker","type":"notNull Violation","validatorArgs":[],"validatorKey":"is_null","validatorName":null,"value":null}],"name":"SequelizeValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":48732.187},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":85096,"external":3495970,"heapTotal":23384064,"heapUsed":20179048,"rss":61300736},"pid":12388,"uid":null,"version":"v20.14.0"},"stack":"SequelizeValidationError: notNull Violation: Stock.ticker cannot be null\n    at InstanceValidator._validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:50:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async InstanceValidator._validateAndRunHooks (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:60:7)\n    at async InstanceValidator.validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:54:12)\n    at async model.save (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:2426:7)\n    at async Stock.create (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:1362:12)","timestamp":"2024-12-17T07:42:14.474Z","trace":[{"column":13,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"InstanceValidator._validate","line":50,"method":"_validate","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator._validateAndRunHooks","line":60,"method":"_validateAndRunHooks","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator.validate","line":54,"method":"validate","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async model.save","line":2426,"method":"save","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async Stock.create","line":1362,"method":"create","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T07:44:50.598Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T07:44:50.830Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T07:55:25.239Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T07:55:25.491Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T07:58:15.817Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T07:58:16.054Z"}
+error: uncaughtException: invalid input syntax for type integer: "NaN"
+Error
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PostgresQueryInterface.insert (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:2490:35)
+    at async Stock.create (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:1362:12) {"date":"Tue Dec 17 2024 13:28:24 GMT+0530 (India Standard Time)","error":{"name":"SequelizeDatabaseError","original":{"code":"22P02","file":"numutils.c","length":146,"line":"620","name":"error","parameters":["AAPL","Unknown",null,10,150,251.04,"2024-12-17 07:58:24.194 +00:00","2024-12-17 07:58:24.195 +00:00","2024-12-17 07:58:24.195 +00:00"],"routine":"pg_strtoint32_safe","severity":"ERROR","sql":"INSERT INTO \"financeData\".\"Stocks\" (\"id\",\"ticker\",\"company_name\",\"user_id\",\"quantity\",\"buy_price\",\"current_price\",\"created_at\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"ticker\",\"company_name\",\"user_id\",\"quantity\",\"buy_price\",\"current_price\",\"created_at\",\"createdAt\",\"updatedAt\";","where":"unnamed portal parameter $3 = '...'"},"parameters":["AAPL","Unknown",null,10,150,251.04,"2024-12-17 07:58:24.194 +00:00","2024-12-17 07:58:24.195 +00:00","2024-12-17 07:58:24.195 +00:00"],"parent":{"code":"22P02","file":"numutils.c","length":146,"line":"620","name":"error","parameters":["AAPL","Unknown",null,10,150,251.04,"2024-12-17 07:58:24.194 +00:00","2024-12-17 07:58:24.195 +00:00","2024-12-17 07:58:24.195 +00:00"],"routine":"pg_strtoint32_safe","severity":"ERROR","sql":"INSERT INTO \"financeData\".\"Stocks\" (\"id\",\"ticker\",\"company_name\",\"user_id\",\"quantity\",\"buy_price\",\"current_price\",\"created_at\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"ticker\",\"company_name\",\"user_id\",\"quantity\",\"buy_price\",\"current_price\",\"created_at\",\"createdAt\",\"updatedAt\";","where":"unnamed portal parameter $3 = '...'"},"sql":"INSERT INTO \"financeData\".\"Stocks\" (\"id\",\"ticker\",\"company_name\",\"user_id\",\"quantity\",\"buy_price\",\"current_price\",\"created_at\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"ticker\",\"company_name\",\"user_id\",\"quantity\",\"buy_price\",\"current_price\",\"created_at\",\"createdAt\",\"updatedAt\";"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":49701.953},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":85970,"external":3496844,"heapTotal":24170496,"heapUsed":20505904,"rss":62009344},"pid":4248,"uid":null,"version":"v20.14.0"},"stack":"Error\n    at Query.run (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\postgres\\query.js:50:25)\n    at C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async PostgresQueryInterface.insert (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:308:21)\n    at async model.save (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:2490:35)\n    at async Stock.create (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:1362:12)","timestamp":"2024-12-17T07:58:24.234Z","trace":[{"column":25,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\postgres\\query.js","function":"Query.run","line":50,"method":"run","native":false},{"column":28,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\sequelize.js","function":null,"line":315,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false},{"column":21,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js","function":"async PostgresQueryInterface.insert","line":308,"method":"insert","native":false},{"column":35,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async model.save","line":2490,"method":"save","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async Stock.create","line":1362,"method":"create","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T08:02:31.762Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T08:02:32.078Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T08:16:18.956Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T08:16:19.215Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T09:05:09.364Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T09:05:09.895Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T09:25:07.756Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T09:25:08.132Z"}
+error: uncaughtException: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\yahoo google\backend\socket\build\routes\src\uploads\c551870f819e16954a2fef5d969b8d07'
+Error: ENOENT: no such file or directory, open 'C:\Users\admin\Desktop\yahoo google\backend\socket\build\routes\src\uploads\c551870f819e16954a2fef5d969b8d07' {"date":"Tue Dec 17 2024 14:55:14 GMT+0530 (India Standard Time)","error":{"code":"ENOENT","errno":-4058,"path":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\routes\\src\\uploads\\c551870f819e16954a2fef5d969b8d07","syscall":"open"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":54912.078},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":122434,"external":3527615,"heapTotal":56152064,"heapUsed":27177728,"rss":74506240},"pid":11052,"uid":null,"version":"v20.14.0"},"stack":"Error: ENOENT: no such file or directory, open 'C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\routes\\src\\uploads\\c551870f819e16954a2fef5d969b8d07'","timestamp":"2024-12-17T09:25:14.364Z","trace":[]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T09:29:40.026Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T09:29:40.264Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T09:48:24.797Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T09:48:25.035Z"}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\response.js:278:15)
+    at CsvParser.<anonymous> (C:\Users\admin\Desktop\yahoo google\backend\socket\build\routes\user.route.js:55:41)
+    at CsvParser.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Tue Dec 17 2024 15:19:09 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":56347.5},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":213703,"external":3624577,"heapTotal":21811200,"heapUsed":20621232,"rss":59056128},"pid":17688,"uid":null,"version":"v20.14.0"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\express\\lib\\response.js:278:15)\n    at CsvParser.<anonymous> (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\routes\\user.route.js:55:41)\n    at CsvParser.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2024-12-17T09:49:09.774Z","trace":[{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":659,"method":"setHeader","native":false},{"column":10,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":41,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\routes\\user.route.js","function":null,"line":55,"method":null,"native":false},{"column":28,"file":"node:events","function":"CsvParser.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1696,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":82,"method":"processTicksAndRejections","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T09:53:03.444Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T09:53:03.754Z"}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\response.js:278:15)
+    at CsvParser.<anonymous> (C:\Users\admin\Desktop\yahoo google\backend\socket\build\routes\user.route.js:55:41)
+    at CsvParser.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Tue Dec 17 2024 15:23:08 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":56586.14},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":261793,"external":3678318,"heapTotal":56676352,"heapUsed":24508792,"rss":78299136},"pid":16692,"uid":null,"version":"v20.14.0"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\express\\lib\\response.js:278:15)\n    at CsvParser.<anonymous> (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\routes\\user.route.js:55:41)\n    at CsvParser.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2024-12-17T09:53:08.438Z","trace":[{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":659,"method":"setHeader","native":false},{"column":10,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":41,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\routes\\user.route.js","function":null,"line":55,"method":null,"native":false},{"column":28,"file":"node:events","function":"CsvParser.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1696,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":82,"method":"processTicksAndRejections","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T09:55:06.365Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T09:55:06.602Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T10:00:02.463Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T10:00:02.676Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T10:09:52.539Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T10:09:52.889Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T10:20:24.178Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T10:20:24.453Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T10:23:17.110Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T10:23:17.354Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T11:16:34.623Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T11:16:35.238Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T11:25:13.058Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T11:25:13.514Z"}
+error: uncaughtException: notNull Violation: Stock.buy_price cannot be null
+SequelizeValidationError: notNull Violation: Stock.buy_price cannot be null
+    at InstanceValidator._validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:50:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InstanceValidator._validateAndRunHooks (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:60:7)
+    at async InstanceValidator.validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:54:12)
+    at async model.save (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:2426:7)
+    at async Stock.create (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:1362:12) {"date":"Tue Dec 17 2024 16:55:19 GMT+0530 (India Standard Time)","error":{"errors":[{"instance":{"company_name":" demo","createdAt":"2024-12-17T11:25:19.156Z","created_at":"2024-12-17T11:25:19.155Z","current_price":{},"id":null,"quantity":"10","ticker":"AAPL","updatedAt":"2024-12-17T11:25:19.156Z","user_id":123},"message":"Stock.buy_price cannot be null","origin":"CORE","path":"buy_price","type":"notNull Violation","validatorArgs":[],"validatorKey":"is_null","validatorName":null,"value":null}],"name":"SequelizeValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":62117.906},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":261507,"external":3678032,"heapTotal":56414208,"heapUsed":24568992,"rss":78176256},"pid":17920,"uid":null,"version":"v20.14.0"},"stack":"SequelizeValidationError: notNull Violation: Stock.buy_price cannot be null\n    at InstanceValidator._validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:50:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async InstanceValidator._validateAndRunHooks (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:60:7)\n    at async InstanceValidator.validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:54:12)\n    at async model.save (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:2426:7)\n    at async Stock.create (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:1362:12)","timestamp":"2024-12-17T11:25:19.194Z","trace":[{"column":13,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"InstanceValidator._validate","line":50,"method":"_validate","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator._validateAndRunHooks","line":60,"method":"_validateAndRunHooks","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator.validate","line":54,"method":"validate","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async model.save","line":2426,"method":"save","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async Stock.create","line":1362,"method":"create","native":false}]}
+error: uncaughtException: notNull Violation: Stock.buy_price cannot be null
+SequelizeValidationError: notNull Violation: Stock.buy_price cannot be null
+    at InstanceValidator._validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:50:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InstanceValidator._validateAndRunHooks (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:60:7)
+    at async InstanceValidator.validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:54:12)
+    at async model.save (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:2426:7)
+    at async Stock.create (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:1362:12) {"date":"Tue Dec 17 2024 16:55:19 GMT+0530 (India Standard Time)","error":{"errors":[{"instance":{"company_name":" demo","createdAt":"2024-12-17T11:25:19.161Z","created_at":"2024-12-17T11:25:19.161Z","current_price":{},"id":null,"quantity":"5","ticker":"MSFT","updatedAt":"2024-12-17T11:25:19.161Z","user_id":123},"message":"Stock.buy_price cannot be null","origin":"CORE","path":"buy_price","type":"notNull Violation","validatorArgs":[],"validatorKey":"is_null","validatorName":null,"value":null}],"name":"SequelizeValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":62117.968},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":273951,"external":3690516,"heapTotal":56414208,"heapUsed":24694408,"rss":78241792},"pid":17920,"uid":null,"version":"v20.14.0"},"stack":"SequelizeValidationError: notNull Violation: Stock.buy_price cannot be null\n    at InstanceValidator._validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:50:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async InstanceValidator._validateAndRunHooks (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:60:7)\n    at async InstanceValidator.validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:54:12)\n    at async model.save (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:2426:7)\n    at async Stock.create (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:1362:12)","timestamp":"2024-12-17T11:25:19.237Z","trace":[{"column":13,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"InstanceValidator._validate","line":50,"method":"_validate","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator._validateAndRunHooks","line":60,"method":"_validateAndRunHooks","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator.validate","line":54,"method":"validate","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async model.save","line":2426,"method":"save","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async Stock.create","line":1362,"method":"create","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T11:26:11.708Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T11:26:11.992Z"}
+error: uncaughtException: notNull Violation: Stock.buy_price cannot be null
+SequelizeValidationError: notNull Violation: Stock.buy_price cannot be null
+    at InstanceValidator._validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:50:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InstanceValidator._validateAndRunHooks (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:60:7)
+    at async InstanceValidator.validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:54:12)
+    at async model.save (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:2426:7)
+    at async Stock.create (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:1362:12) {"date":"Tue Dec 17 2024 16:56:16 GMT+0530 (India Standard Time)","error":{"errors":[{"instance":{"company_name":" demo","createdAt":"2024-12-17T11:26:16.159Z","created_at":"2024-12-17T11:26:16.157Z","current_price":{},"id":null,"quantity":"10","ticker":"AAPL","updatedAt":"2024-12-17T11:26:16.159Z","user_id":123},"message":"Stock.buy_price cannot be null","origin":"CORE","path":"buy_price","type":"notNull Violation","validatorArgs":[],"validatorKey":"is_null","validatorName":null,"value":null}],"name":"SequelizeValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":62174.921},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":261708,"external":3678027,"heapTotal":56414208,"heapUsed":28419272,"rss":78135296},"pid":480,"uid":null,"version":"v20.14.0"},"stack":"SequelizeValidationError: notNull Violation: Stock.buy_price cannot be null\n    at InstanceValidator._validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:50:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async InstanceValidator._validateAndRunHooks (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:60:7)\n    at async InstanceValidator.validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:54:12)\n    at async model.save (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:2426:7)\n    at async Stock.create (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:1362:12)","timestamp":"2024-12-17T11:26:16.212Z","trace":[{"column":13,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"InstanceValidator._validate","line":50,"method":"_validate","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator._validateAndRunHooks","line":60,"method":"_validateAndRunHooks","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator.validate","line":54,"method":"validate","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async model.save","line":2426,"method":"save","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async Stock.create","line":1362,"method":"create","native":false}]}
+error: uncaughtException: notNull Violation: Stock.buy_price cannot be null
+SequelizeValidationError: notNull Violation: Stock.buy_price cannot be null
+    at InstanceValidator._validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:50:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InstanceValidator._validateAndRunHooks (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:60:7)
+    at async InstanceValidator.validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:54:12)
+    at async model.save (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:2426:7)
+    at async Stock.create (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:1362:12) {"date":"Tue Dec 17 2024 16:56:16 GMT+0530 (India Standard Time)","error":{"errors":[{"instance":{"company_name":" demo","createdAt":"2024-12-17T11:26:16.163Z","created_at":"2024-12-17T11:26:16.163Z","current_price":{},"id":null,"quantity":"5","ticker":"MSFT","updatedAt":"2024-12-17T11:26:16.163Z","user_id":123},"message":"Stock.buy_price cannot be null","origin":"CORE","path":"buy_price","type":"notNull Violation","validatorArgs":[],"validatorKey":"is_null","validatorName":null,"value":null}],"name":"SequelizeValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":62174.984},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":274146,"external":3690505,"heapTotal":56414208,"heapUsed":28544664,"rss":78200832},"pid":480,"uid":null,"version":"v20.14.0"},"stack":"SequelizeValidationError: notNull Violation: Stock.buy_price cannot be null\n    at InstanceValidator._validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:50:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async InstanceValidator._validateAndRunHooks (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:60:7)\n    at async InstanceValidator.validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:54:12)\n    at async model.save (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:2426:7)\n    at async Stock.create (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:1362:12)","timestamp":"2024-12-17T11:26:16.282Z","trace":[{"column":13,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"InstanceValidator._validate","line":50,"method":"_validate","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator._validateAndRunHooks","line":60,"method":"_validateAndRunHooks","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator.validate","line":54,"method":"validate","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async model.save","line":2426,"method":"save","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async Stock.create","line":1362,"method":"create","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T11:29:28.326Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T11:29:28.792Z"}
+error: uncaughtException: notNull Violation: Stock.buy_price cannot be null
+SequelizeValidationError: notNull Violation: Stock.buy_price cannot be null
+    at InstanceValidator._validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:50:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InstanceValidator._validateAndRunHooks (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:60:7)
+    at async InstanceValidator.validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:54:12)
+    at async model.save (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:2426:7)
+    at async Stock.create (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:1362:12) {"date":"Tue Dec 17 2024 16:59:52 GMT+0530 (India Standard Time)","error":{"errors":[{"instance":{"company_name":" demo","createdAt":"2024-12-17T11:29:52.286Z","created_at":"2024-12-17T11:29:52.285Z","current_price":{},"id":null,"quantity":"10","ticker":"AAPL","updatedAt":"2024-12-17T11:29:52.286Z","user_id":123},"message":"Stock.buy_price cannot be null","origin":"CORE","path":"buy_price","type":"notNull Violation","validatorArgs":[],"validatorKey":"is_null","validatorName":null,"value":null}],"name":"SequelizeValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":62391.046},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":213701,"external":3624575,"heapTotal":21811200,"heapUsed":20830296,"rss":59068416},"pid":19252,"uid":null,"version":"v20.14.0"},"stack":"SequelizeValidationError: notNull Violation: Stock.buy_price cannot be null\n    at InstanceValidator._validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:50:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async InstanceValidator._validateAndRunHooks (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:60:7)\n    at async InstanceValidator.validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:54:12)\n    at async model.save (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:2426:7)\n    at async Stock.create (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:1362:12)","timestamp":"2024-12-17T11:29:52.318Z","trace":[{"column":13,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"InstanceValidator._validate","line":50,"method":"_validate","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator._validateAndRunHooks","line":60,"method":"_validateAndRunHooks","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator.validate","line":54,"method":"validate","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async model.save","line":2426,"method":"save","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async Stock.create","line":1362,"method":"create","native":false}]}
+error: uncaughtException: notNull Violation: Stock.buy_price cannot be null
+SequelizeValidationError: notNull Violation: Stock.buy_price cannot be null
+    at InstanceValidator._validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:50:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InstanceValidator._validateAndRunHooks (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:60:7)
+    at async InstanceValidator.validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:54:12)
+    at async model.save (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:2426:7)
+    at async Stock.create (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:1362:12) {"date":"Tue Dec 17 2024 16:59:52 GMT+0530 (India Standard Time)","error":{"errors":[{"instance":{"company_name":" demo","createdAt":"2024-12-17T11:29:52.292Z","created_at":"2024-12-17T11:29:52.292Z","current_price":{},"id":null,"quantity":"5","ticker":"MSFT","updatedAt":"2024-12-17T11:29:52.292Z","user_id":123},"message":"Stock.buy_price cannot be null","origin":"CORE","path":"buy_price","type":"notNull Violation","validatorArgs":[],"validatorKey":"is_null","validatorName":null,"value":null}],"name":"SequelizeValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":62391.093},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":226145,"external":3637059,"heapTotal":21811200,"heapUsed":20955504,"rss":59260928},"pid":19252,"uid":null,"version":"v20.14.0"},"stack":"SequelizeValidationError: notNull Violation: Stock.buy_price cannot be null\n    at InstanceValidator._validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:50:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async InstanceValidator._validateAndRunHooks (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:60:7)\n    at async InstanceValidator.validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:54:12)\n    at async model.save (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:2426:7)\n    at async Stock.create (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:1362:12)","timestamp":"2024-12-17T11:29:52.366Z","trace":[{"column":13,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"InstanceValidator._validate","line":50,"method":"_validate","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator._validateAndRunHooks","line":60,"method":"_validateAndRunHooks","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator.validate","line":54,"method":"validate","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async model.save","line":2426,"method":"save","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async Stock.create","line":1362,"method":"create","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T11:38:06.437Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T11:38:06.684Z"}
+error: uncaughtException: notNull Violation: Stock.buy_price cannot be null
+SequelizeValidationError: notNull Violation: Stock.buy_price cannot be null
+    at InstanceValidator._validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:50:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InstanceValidator._validateAndRunHooks (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:60:7)
+    at async InstanceValidator.validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:54:12)
+    at async model.save (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:2426:7)
+    at async Stock.create (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:1362:12) {"date":"Tue Dec 17 2024 17:08:14 GMT+0530 (India Standard Time)","error":{"errors":[{"instance":{"company_name":" demo","createdAt":"2024-12-17T11:38:14.456Z","created_at":"2024-12-17T11:38:14.454Z","current_price":{},"id":null,"quantity":"10","ticker":"AAPL","updatedAt":"2024-12-17T11:38:14.456Z","user_id":123},"message":"Stock.buy_price cannot be null","origin":"CORE","path":"buy_price","type":"notNull Violation","validatorArgs":[],"validatorKey":"is_null","validatorName":null,"value":null}],"name":"SequelizeValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":62893.218},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":261457,"external":3677982,"heapTotal":56676352,"heapUsed":24800080,"rss":78766080},"pid":18208,"uid":null,"version":"v20.14.0"},"stack":"SequelizeValidationError: notNull Violation: Stock.buy_price cannot be null\n    at InstanceValidator._validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:50:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async InstanceValidator._validateAndRunHooks (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:60:7)\n    at async InstanceValidator.validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:54:12)\n    at async model.save (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:2426:7)\n    at async Stock.create (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:1362:12)","timestamp":"2024-12-17T11:38:14.489Z","trace":[{"column":13,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"InstanceValidator._validate","line":50,"method":"_validate","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator._validateAndRunHooks","line":60,"method":"_validateAndRunHooks","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator.validate","line":54,"method":"validate","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async model.save","line":2426,"method":"save","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async Stock.create","line":1362,"method":"create","native":false}]}
+error: uncaughtException: notNull Violation: Stock.buy_price cannot be null
+SequelizeValidationError: notNull Violation: Stock.buy_price cannot be null
+    at InstanceValidator._validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:50:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async InstanceValidator._validateAndRunHooks (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:60:7)
+    at async InstanceValidator.validate (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\instance-validator.js:54:12)
+    at async model.save (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:2426:7)
+    at async Stock.create (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\lib\model.js:1362:12) {"date":"Tue Dec 17 2024 17:08:14 GMT+0530 (India Standard Time)","error":{"errors":[{"instance":{"company_name":" demo","createdAt":"2024-12-17T11:38:14.459Z","created_at":"2024-12-17T11:38:14.459Z","current_price":{},"id":null,"quantity":"5","ticker":"MSFT","updatedAt":"2024-12-17T11:38:14.459Z","user_id":123},"message":"Stock.buy_price cannot be null","origin":"CORE","path":"buy_price","type":"notNull Violation","validatorArgs":[],"validatorKey":"is_null","validatorName":null,"value":null}],"name":"SequelizeValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":62893.265},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\build\\index.js"],"cwd":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":273901,"external":3690466,"heapTotal":56676352,"heapUsed":24925480,"rss":78831616},"pid":18208,"uid":null,"version":"v20.14.0"},"stack":"SequelizeValidationError: notNull Violation: Stock.buy_price cannot be null\n    at InstanceValidator._validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:50:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async InstanceValidator._validateAndRunHooks (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:60:7)\n    at async InstanceValidator.validate (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js:54:12)\n    at async model.save (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:2426:7)\n    at async Stock.create (C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js:1362:12)","timestamp":"2024-12-17T11:38:14.537Z","trace":[{"column":13,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"InstanceValidator._validate","line":50,"method":"_validate","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator._validateAndRunHooks","line":60,"method":"_validateAndRunHooks","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\instance-validator.js","function":"async InstanceValidator.validate","line":54,"method":"validate","native":false},{"column":7,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async model.save","line":2426,"method":"save","native":false},{"column":12,"file":"C:\\Users\\admin\\Desktop\\yahoo google\\backend\\socket\\node_modules\\sequelize\\lib\\model.js","function":"async Stock.create","line":1362,"method":"create","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-17T12:00:24.676Z"}
+info: Connected to the database. {"timestamp":"2024-12-17T12:00:25.313Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T06:27:31.153Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T06:27:31.587Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T06:51:43.430Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T06:51:43.809Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T07:07:42.329Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T07:07:42.593Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T07:17:02.147Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T07:17:02.558Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T07:27:15.174Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T07:27:15.634Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T08:41:32.862Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T08:41:34.179Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T11:05:41.435Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T11:05:41.888Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T11:38:42.465Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T11:38:43.073Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T16:59:33.519Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T16:59:34.487Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T17:04:01.643Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T17:04:02.043Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T17:07:09.511Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T17:07:09.950Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T17:09:01.034Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T17:09:01.466Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T17:27:27.901Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T17:27:28.218Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T18:02:43.113Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T18:02:43.434Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T18:12:56.189Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T18:12:56.484Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T18:14:38.447Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T18:14:38.912Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T18:14:45.566Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T18:14:45.822Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T18:19:37.765Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T18:19:38.223Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T18:19:55.893Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T18:19:56.196Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T18:20:22.904Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T18:20:26.369Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T18:20:26.693Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T18:23:49.089Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T18:23:49.421Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T18:32:14.899Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T18:32:15.410Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T19:14:29.752Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T19:14:30.086Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T05:39:19.911Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T05:39:20.448Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T06:25:44.083Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T06:30:32.332Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T06:31:45.161Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T06:31:45.825Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T06:31:57.923Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T06:33:11.814Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T06:37:06.218Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T06:37:48.680Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T06:37:49.940Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T06:37:59.432Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T06:39:58.486Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T06:39:58.938Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T06:40:07.340Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T06:50:29.062Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T06:50:29.649Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:02:33.504Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:02:33.969Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/calculate-portfolio-profit-loss 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-12-19T07:05:11.078Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:06:00.449Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:10:38.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:11:45.343Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:11:45.696Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:11:49.533Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:12:50.614Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:13:57.389Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:13:57.808Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:14:00.715Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:14:56.768Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:15:53.911Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:15:54.252Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:16:33.820Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:16:34.224Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:17:58.432Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:17:58.787Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:23:39.322Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:23:39.790Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:25:18.241Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:25:18.534Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:27:08.299Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:27:08.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:28:15.678Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:28:16.102Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:28:29.910Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:28:30.260Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:29:04.130Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:29:04.446Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:32:33.888Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:32:34.349Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:32:38.843Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:34:35.102Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:34:35.394Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:39:20.905Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'split')
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:27:33
+    at Generator.next (<anonymous>)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:20:21)
+    at Layer.handle [as handle_request] (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:40:15.191Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'split')
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:27:33
+    at Generator.next (<anonymous>)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:20:21)
+    at Layer.handle [as handle_request] (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/calculate-profit-loss 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:40:43.591Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'split')
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:27:33
+    at Generator.next (<anonymous>)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:20:21)
+    at Layer.handle [as handle_request] (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/calculate-profit-loss 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:42:25.656Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'split')
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:27:33
+    at Generator.next (<anonymous>)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:20:21)
+    at Layer.handle [as handle_request] (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/calculate-profit-loss 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:42:34.651Z"}

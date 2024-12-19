@@ -1,0 +1,325 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T18:32:14.899Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T18:32:15.410Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-18T19:14:29.752Z"}
+info: Connected to the database. {"timestamp":"2024-12-18T19:14:30.086Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T05:39:19.911Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T05:39:20.448Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T06:25:44.083Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T06:30:32.332Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T06:31:45.161Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T06:31:45.825Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T06:31:57.923Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T06:33:11.814Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T06:37:06.218Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T06:37:48.680Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T06:37:49.940Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T06:37:59.432Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T06:39:58.486Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T06:39:58.938Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T06:40:07.340Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T06:50:29.062Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T06:50:29.649Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:02:33.504Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:02:33.969Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/calculate-portfolio-profit-loss 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-12-19T07:05:11.078Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:06:00.449Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:10:38.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:11:45.343Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:11:45.696Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:11:49.533Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:12:50.614Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:13:57.389Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:13:57.808Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:14:00.715Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:14:56.768Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:15:53.911Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:15:54.252Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:16:33.820Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:16:34.224Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:17:58.432Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:17:58.787Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:23:39.322Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:23:39.790Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:25:18.241Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:25:18.534Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:27:08.299Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:27:08.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:28:15.678Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:28:16.102Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:28:29.910Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:28:30.260Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:29:04.130Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:29:04.446Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:32:33.888Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:32:34.349Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:32:38.843Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-19T07:34:35.102Z"}
+info: Connected to the database. {"timestamp":"2024-12-19T07:34:35.394Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:39:20.905Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'split')
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:27:33
+    at Generator.next (<anonymous>)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:20:21)
+    at Layer.handle [as handle_request] (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/calculate-portfolio-profit-loss 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:40:15.191Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'split')
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:27:33
+    at Generator.next (<anonymous>)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:20:21)
+    at Layer.handle [as handle_request] (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/calculate-profit-loss 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:40:43.591Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'split')
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:27:33
+    at Generator.next (<anonymous>)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:20:21)
+    at Layer.handle [as handle_request] (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/calculate-profit-loss 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:42:25.656Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'split')
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:27:33
+    at Generator.next (<anonymous>)
+    at C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\admin\Desktop\yahoo google\backend\socket\src\middlewares\auth.middleware.ts:20:21)
+    at Layer.handle [as handle_request] (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\admin\Desktop\yahoo google\backend\socket\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/calculate-profit-loss 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-12-19T07:42:34.651Z"}
